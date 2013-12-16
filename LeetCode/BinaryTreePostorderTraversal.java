@@ -13,6 +13,16 @@
  * Note: Recursive solution is trivial, could you do it iteratively?
  */
 
+/**
+ * Definition for binary tree
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode(int x) { val = x; }
+ * }
+ */
+
 public ArrayList<Integer> postorderTraversal(TreeNode root) {
     return postorderTraversal(root, new ArrayList<Integer>());
 }
